@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrap {
+            max-width: 1280px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        nav,
+        header {
+            height: 360px;
+        }
+
+        nav {
+            float: left;
+            width: 300px;
+
+        }
+
+        nav a {
+            display: block;
+            line-height: 72px;
+            margin: 0 20px;
+            font-size: 20px;
+            font-family: arial;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+
+        }
+
+        nav a i {
+            border-right: black solid 2px;
+            padding: 0 20px 0 1px;
+            margin: 0 20px;
+            transition: .3s;
+        }
+
+        nav a:hover i {
+            margin-right: 50px;
+            font-size: 40px;
+            color: peru;
+        }
+
+        header {
+            float: left;
+            width: calc(100% - 300px);
+            background-image: url('pianino.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        section {
+            margin-top: 50px
+        }
+
+        section h1 {
+            font-size: 40px;
+            font-family: arial;
+            text-align: center;
+            background-color: #333;
+            padding: 15px 0;
+            color: white;
+            text-transform: uppercase;
+            font-family: arial;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="far fa-play-circle"></i>Start</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>Oferta</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-rss"></i>Blog</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>Terminarz</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="far fa-envelope"></i>Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <header></header>
+
+    </div>
+
+    <section>
+        <h1>Witaj w naszym świecie!</h1>
+    </section>
+
+</body>
+
+</html>
